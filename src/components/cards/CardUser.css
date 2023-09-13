@@ -1,0 +1,34 @@
+body{
+   
+
+}   
+.card-user{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    width: 300px;
+    border-radius: 15px;
+    gap: 10px;
+    margin: 0 0 10px 0;
+    background-color: #0D0400a5;
+    color: #F2F2F2;
+}
+
+.card-user img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+
+.card-user h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.card-user p {
+    margin: 0;
+    padding: 0;
+}
+

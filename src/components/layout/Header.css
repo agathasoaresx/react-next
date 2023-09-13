@@ -1,9 +1,10 @@
 #header{
-    background: #000;
+    background: #0D0D0D;
     display: flex;
     justify-content: space-between;
     color: #FFF;
     align-items: center;
+    height: 80px;
 }
 
 #header h1{
