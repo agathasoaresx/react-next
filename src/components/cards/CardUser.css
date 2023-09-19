@@ -10,7 +10,7 @@ body{
     border-radius: 15px;
     gap: 10px;
     margin: 0 0 10px 0;
-    background-color: #0D0400a5;
+    background-color: rgb(4 47 46);;
     color: #F2F2F2;
 }
 
@@ -32,3 +32,13 @@ body{
     padding: 0;
 }
 
+.card-user div p span {
+    display: inline-block;
+    margin: 15px 10px 0 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.card-user div p span.delete {
+    color: red;
+}
