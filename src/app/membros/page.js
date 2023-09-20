@@ -1,6 +1,7 @@
 import Header from "@/components/layout/Header"
 import CardUser
  from "@/components/cards/CardUser"
+ import './Membros.css'
 
 const getMembers = async () => {
   const response = await fetch('http://localhost:3300/user/list', {cache: 'no-store'})

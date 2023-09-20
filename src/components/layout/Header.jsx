@@ -2,7 +2,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <header id="header">
+    <header id="header" className='bg-cyan-900'>
         <h1>Logo</h1>
         <nav>
             <ul>

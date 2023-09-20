@@ -5,6 +5,12 @@
     color: #FFF;
     align-items: center;
     height: 80px;
+    border-bottom-right-radius: 15px; /* 8px */
+    padding-left: 14px;
+    padding-right: 14px;
+    font-family: 'Jost', sans-serif;
+    
+
 }
 
 #header h1{
