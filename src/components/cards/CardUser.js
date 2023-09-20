@@ -1,4 +1,6 @@
 'use client'
+
+import {useState} from 'react'
 import './CardUser.css'
 
 const handleDelete = async (idUser) => {
@@ -22,7 +24,10 @@ const handleDelete = async (idUser) => {
 }
 
 const CardUser = ({user}) => {
+
+  const [showCard, setShowCard] = useState(true)
   return (
+    
     <div className="card-user">
     <img src={user.photo} alt={user.name} />
     <div>
@@ -33,6 +38,8 @@ const CardUser = ({user}) => {
         <span>Editar</span>
       </p>
     </div>
+    <button onClick={() => setContador(contador + 1)}>Somar 1</button>
+    <p>valor: {contador}</p>
   </div>
   )
 }
