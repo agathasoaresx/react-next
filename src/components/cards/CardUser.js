@@ -27,20 +27,25 @@ const CardUser = ({user}) => {
 
   const [showCard, setShowCard] = useState(true)
   return (
-    
+    <>
+    { showCard ?
+    (
     <div className="card-user">
-    <img src={user.photo} alt={user.name} />
-    <div>
-      <h4>{user.name}</h4>
-      <p>{user.email}</p>
-      <p>
-        <span className="delete" onClick={() => handleDelete(user.id)}>Excluir</span>
-        <span>Editar</span>
-      </p>
+      <img src={user.photo} alt={user.name} />
+      <div>
+        <h4>{user.name}</h4>
+        <p>{user.email}</p>
+        <p>
+          <span className="delete" onClick={() => handleDelete(user.id)}>Excluir</span>
+          <span>Editar</span>
+        </p>
     </div>
     <button onClick={() => setContador(contador + 1)}>Somar 1</button>
-    <p>valor: {contador}</p>
+    <p>valor: {showCard}</p>
   </div>
+  ) : null
+}
+</>
   )
 }
 
